@@ -1,0 +1,49 @@
+body{
+    background-size: 20%;
+    background: linear-gradient(black,limegreen)
+}
+.main{
+    background-image: radial-gradient(orangered, black, orangered, black, orangered, black, orangered, black);
+    margin-left: 122px;
+    margin-right: 122px;
+}
+p{
+    color: whitesmoke;
+}
+h3{
+    color:white;
+}
+h2{
+    color:white;
+}
+.container{
+    font-family: 'Open Sans', sans-serif;
+    display:inline;
+}
+.projekty{
+    margin-left: 6%;
+    margin-right: 6%;
+    background: linear-gradient(black,green,black,green,black,green,black,green,black,green,black);
+    padding: 1.2%;
+}
+.ostronie{
+    margin-left: 6%;
+    margin-right: 6%;
+    background: linear-gradient(yellow,green,yellow,green,yellow,green,yellow,green,yellow,green,yellow);
+    padding: 1.2%;
+}
+nav{
+    justify-content: space-between;
+    font-family: 'Zen Dots', cursive;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    background-color: tomato;
+}
+button{
+    border-style: ridge groove;
+    border: 3px;
+    border-radius: 50px;
+    border-color: black;
+    color: yellowgreen;
+}
